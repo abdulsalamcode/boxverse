@@ -14,7 +14,7 @@ import OrderHistory from "./components/Auth/OrderHistory";
 import AuthModal    from "./components/Auth/AuthModal";
 
 // ── Gamification ──
-import RewardsPage from "./components/gamification/RewardsPage";
+import RewardsPage from "./components/Gamification/RewardsPage";
 
 // ── Guards ──
 import AuthGuard  from "./routes/AuthGuard";
