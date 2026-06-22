@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap");
+
+/* ── Base ── */
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #faf7f0;
+  color: #1a160e;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ── Dark Mode ── */
+.dark body {
+  background-color: #0f0d09;
+  color: #faf7f0;
+}
+
+.dark .bg-white {
+  background-color: #1a160e !important;
+}
+
+.dark .bg-\[\#FAF7F0\] {
+  background-color: #0f0d09 !important;
+}
+
+.dark .border-\[\#EDE5D4\] {
+  border-color: #2e2318 !important;
+}
+
+.dark .text-\[\#5C5040\] {
+  color: #c5b89a !important;
+}
+
+.dark .text-\[\#1A160E\] {
+  color: #faf7f0 !important;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf7f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9a84c;
+  border-radius: 99px;
+}
+
+/* ── Selection ── */
+::selection {
+  background: #c9a84c;
+  color: #1a160e;
+}
