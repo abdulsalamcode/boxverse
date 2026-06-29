@@ -13,7 +13,7 @@ import UserProfile  from "./components/Auth/UserProfile";
 import OrderHistory from "./components/Auth/OrderHistory";
 import AuthModal    from "./components/Auth/AuthModal";
 
-// ── Gamification ──
+// ── Gamification (capital G — matches actual folder name) ──
 import RewardsPage from "./components/Gamification/RewardsPage";
 
 // ── Guards ──
